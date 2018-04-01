@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #d3d3d3;
+	font-family: font-family: 'Crimson Text', serif;
+	font-weight: 900;
+
+}
+#top-header{
+	background: #191919;
+	height: 130px;
+	border: 1px solid white;
+}
+
+.menu-item:nth-child(1){
+	margin-left: 100px;
+}
+.menu-item{
+	background: #fff;
+	float: left;
+	width: 150px;
+	height: 100px;
+	border: 1px solid green;
+	margin-right: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+	color: #000;
+	line-height: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+.menu-item:before {
+	content: "Human";
+}
+.container{
+	background: #d6d6d6;
+	width: 1100px;
+	height: 1185px;
+	position: absolute;
+	top: 140px;
+	border: 1px solid blue;
+}
+.article-header{
+	position: absolute;
+	top: 40px;
+	left: 385px;
+	background: #000;
+	width: 350px;
+	height: 50px;
+	border: 1px solid yellow;
+	color: green;
+	font-size: 25px;
+	text-align: center;
+
+}
+.article-header:before{
+	content: "We are still";
+}
+.article-bottom{
+	position: absolute;
+	top: 90px;
+	left: 485px;
+	background: #fff;
+	width: 145px;
+	height: 50px;
+	border: 1px solid yellow;
+	color: green;
+	font-size: 25px;
+	text-align: center;
+}
+.article-bottom:before{
+	content: "human";
+}
+
+div[class$="-article"]{
+	background: #f2ebeb;
+	height: 730px;
+	float: left;
+	width: 50%;
+	border: 3px solid #191919;
+
+}
+/* individual styles for each part inside the articles */
+.writer{
+	position: relative;
+	top: 200px;
+	width: 300px;
+	height: 55px;
+	color: #c2c2c2;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.writer:before{
+	content: "Robot Writer";
+}
+
+.article-title{
+	position: relative;
+	top: 225px;
+	width: 410px;
+	height: 220px;
+	color: #ccc;
+	font-size: 35px;
+	font-weight: bold;
+}
+.article-title:before{
+	content: "How will we love? How will we know? When the morning comes. Are we still human?";
+}
+
+.article-comment{
+	position: relative;
+	top:250px;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	color: #ccc;
+	font-size: 16px;
+	text-align: center;
+}
+.article-comment:before{
+	content: "comments";
+}
+
+.article-link{
+	position: relative;
+	top: 275px;
+	width: 205px;
+	height: 25px;
+	color: #ccc;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+.article-link:before{
+	content: "Some useful links";
+}
+/*style to all elements inside articles*/
+
+.writer, .article-title, .article-comment, .article-link{
+	background: #585858;
+	margin-left: 45px;
+}
